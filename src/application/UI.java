@@ -26,8 +26,8 @@ public class UI {
 		public static final String ANSI_CYAN_BACKGROUND = "\u001B[46m";
 		public static final String ANSI_WHITE_BACKGROUND = "\u001B[47m";
 
-		@SuppressWarnings("unused")
-		private static void printPiece(ChessPiece piece) {
+		
+		static void printPiece(ChessPiece piece) {
 	    	if (piece == null) {
 	            System.out.print("-");
 	        } else {
@@ -39,5 +39,4 @@ public class UI {
 	        }
 	        System.out.print(" ");
 		}
-
 }
