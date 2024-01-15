@@ -56,15 +56,15 @@ Essas classes representam peças específicas do xadrez e estendem a classe `Che
 
 O código implementa algumas verificações de erro e tratamentos específicos. Aqui estão alguns cenários possíveis:
 
-	1. Coordenadas Inválidas:
+1. Coordenadas Inválidas:
 	* Se o usuário ou a lógica do jogo fornecer coordenadas inválidas (fora dos limites do tabuleiro), o código lança uma exceção ChessException.
 	* Certifique-se de instruir os usuários a fornecerem coordenadas válidas no formato correto (por exemplo, a1 a h8).
 	
-	2. Movimentos Inválidos das Peças:
-	* Se um jogador tentar fazer um movimento inválido com uma peça (por exemplo, tentar mover uma peça para uma posição 					ocupada por outra peça), o código pode lançar exceções específicas para isso.
+2. Movimentos Inválidos das Peças:
+	* Se um jogador tentar fazer um movimento inválido com uma peça (por exemplo, tentar mover uma peça para uma posição ocupada por outra peça), o código pode lançar exceções específicas para isso.
 	* Instrua os usuários a seguir as regras do xadrez e a evitar movimentos inválidos.
 	
-	3. Operações Fora do Tabuleiro:
+3. Operações Fora do Tabuleiro:
 	* Se o código tentar acessar uma posição fora dos limites do tabuleiro, o tratamento de erro é realizado.
 	* Explique aos usuários que as operações devem ocorrer dentro dos limites do tabuleiro.
 
