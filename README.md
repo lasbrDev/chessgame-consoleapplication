@@ -72,7 +72,11 @@ O código implementa algumas verificações de erro e tratamentos específicos. 
 
 Aqui está um exemplo básico de como criar um jogo de xadrez:
 
+<<<<<<< HEAD
  * Clonar o repositório [aqui](git@github.com:lasbrDev/chessgame-consoleapplication.git)
+=======
+ * Clonar o repositório aqui](https://github.com/lasbrDev/chessgame-consoleapplication.git)
+>>>>>>> develop
  * Acessar o diretório **bin**
  
  ```bash
